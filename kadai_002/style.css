@@ -1,0 +1,31 @@
+ /* whole typing game */
+ body {
+    font-size: 6em; 
+    text-align: center;
+  }
+  
+  /* Timer area that displays the number of seconds left in the game */
+  .count {
+    margin: 0;
+    font-weight: bold;
+    color: #888;
+  }
+  
+  /* Area where text is displayed */
+  .wrap {
+    margin-top: 20px;
+    padding: 80px 40px;
+    background-color: #666;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  /* Text if typed correctly */
+  .typed {
+    color: lightgreen;
+  }
+  
+  /* Background in case of typo */
+  .mistyped {
+    background-color: red;
+  }
